@@ -1,13 +1,13 @@
-# macrooo
+# macroo
 
-```asm
+```toml
 [dependencies]
 macroo = {path="../macroo"}
 macroo_derive = {path="../macroo/macroo_derive"}
 
 ```
 
-```asm
+```rust
 use macrooo::HelloMacro;
 use macrooo_derive::HelloMacro;
 
